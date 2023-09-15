@@ -13,7 +13,7 @@ const Home = () => {
       <div className="blog-preview px-32 py-6 my-2 border border-b border-black " key={blog.id}>
         <h2 className="text-red-400">{blog.title}</h2>
         <p>Author: {blog.author}</p>
-        {/* New Line of Code */}
+        {/* New Line of Code this is going to be a conflict */}
         <p>title: {blog.author}</p>
       </div>
     ))}
